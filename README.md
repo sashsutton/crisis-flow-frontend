@@ -13,7 +13,7 @@ The **CrisisFlow Frontend** is the real-time command center for disaster intelli
 
 The frontend is built with **React** and consumes endpoints exposed by the CrisisFlow AI Engine.
 
-- **Backend Repository:** [GitHub - CrisisFlow AI Engine](https://github.com/sashasutton/crisis-flow-backend)
+- **Backend Repository:** [GitHub - CrisisFlow AI Engine](https://github.com/sashsutton/crisis-flow-backend)
 - **Live Website:** [CrisisFlow Dashboard](https://crisis-flow-frontend-mhy4qore7-sashasuttons-projects.vercel.app/)
 
 ---
