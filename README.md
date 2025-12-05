@@ -23,7 +23,8 @@ The frontend is built with **React** and consumes endpoints exposed by the Crisi
 The frontend visualizes data processed by the AI Engine, which originates from the **[Natural Language Processing with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started/data)** Kaggle competition.
 
 > [!NOTE]
-> The map visualization simulates geolocation data (centered on Los Angeles) to demonstrate the geospatial capabilities, as the original dataset consists primarily of text messages.
+> **Why Los Angeles?**
+> The original Kaggle dataset consists primarily of text messages without GPS coordinates. To demonstrate the dashboard's **geospatial clustering capabilities**, the application simulates a disaster scenario centered on **Los Angeles**. It assigns random coordinates around the city to each message, allowing users to visualize how the system would look with real-time location data.
 
 The application polls the backend API for updates:
 
