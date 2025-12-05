@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import './App.css';
 
 // --- CONFIGURATION ---
-const API_URL = "http://127.0.0.1:8000/data";
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/data";
 const CENTER_LAT = 34.0522; // Los Angeles (Simulated Disaster Zone)
 const CENTER_LNG = -118.2437;
 
